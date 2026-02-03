@@ -58,7 +58,8 @@ const whatsappBtn = document.getElementById("whatsapp-float");
 
 if (whatsappBtn) {
   whatsappBtn.addEventListener("click", () => {
-    const url = `https://wa.me/${whatsappNumber}?text=Hello, I need graphic design services from LOZY CREATIVE STUDIO.`;
+    const url = `https://wa.me/${whatsappNumber}?text=Hello, I need graphic design services from LOZY CREATIVE STUDIO.`
+      ;Name:, Address, graphic details:, please confirm: 
     window.open(url, "_blank");
   });
                                }
