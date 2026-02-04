@@ -35,7 +35,8 @@ nav {
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #00e5ff; /* Gold accent */
+    color: #00e5ff; 
+    display: none; /* Gold accent */
 }
 
 #nav-menu {
