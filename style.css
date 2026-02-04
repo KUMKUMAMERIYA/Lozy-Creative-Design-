@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #0f172a;   /* dark navy */
+    background-color: linear-gradient(135deg, #000000, #0f172a);
     color: #fff;
     line-height: 1.6;
     scroll-behavior: smooth; /* Smooth scrolling */
