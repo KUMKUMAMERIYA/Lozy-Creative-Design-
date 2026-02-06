@@ -254,3 +254,8 @@ footer {
     bottom: 20px;
     right: 20px;
     width:
+
+/* Hamburger (3 lines) hide */
+.navbar-toggler {
+  display: none !important;
+}
