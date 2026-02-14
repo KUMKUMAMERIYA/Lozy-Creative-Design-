@@ -5,7 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LOZY CREATIVE DESIGNS- We design brands that sell</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>LC</text></svg>"> <!-- Simple favicon -->
+   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>LC</text></svg>"> <!-- Simple favicon -->
+    <style>
+/* Empty black box remove */
+div:empty {
+  display: none !important;
+}
+
+/* Agar koi section/card black aa raha ho */
+.service-card:empty,
+.section:empty,
+.container div:empty {
+  display: none !important;
+}
+
+/* Safety: kisi element ka background black force ho raha ho to white karo */
+.service-card,
+#services,
+.section {
+  background-color: #ffffff !important;
+}
+</style>
 </head>
 <body>
     <h1>Lozy Creative Design</h1>
