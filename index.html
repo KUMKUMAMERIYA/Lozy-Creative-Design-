@@ -7,23 +7,22 @@
     <link rel="stylesheet" href="style.css">
    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>LC</text></svg>"> <!-- Simple favicon -->
     <style>
-/* Empty black box remove */
-div:empty {
-  display: none !important;
-}
-
-/* Agar koi section/card black aa raha ho */
-.service-card:empty,
-.section:empty,
-.container div:empty {
-  display: none !important;
-}
-
-/* Safety: kisi element ka background black force ho raha ho to white karo */
+/* Box visible rahe, sirf black color hatao */
 .service-card,
+.section,
 #services,
-.section {
+.container,
+div {
   background-color: #ffffff !important;
+  color: #111111 !important;
+}
+
+/* Jo text links gayab lag rahe hon unka color fix */
+.service-card h3,
+.service-card p,
+.section h2,
+.section p {
+  color: #111111 !important;
 }
 </style>
 </head>
